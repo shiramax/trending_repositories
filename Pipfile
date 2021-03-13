@@ -1,0 +1,19 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+click = "*"
+gtrending ="*"
+rich="*"
+GitPython="*"
+pip_check_reqs="*"
+
+[dev-packages]
+ipdb = "*"
+
+[requires]
+
+python_version = "3.9"
